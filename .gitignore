@@ -11,6 +11,10 @@ bin/contract.ini
 .Python
 contracts/*.bin
 bin/logs/*
+bin/solc/*
+bin/accounts/*
+!bin/accounts/pyaccount.keystore
+!bin/accounts/gm_account.json
 build/
 develop-eggs/
 dist/
